@@ -11,6 +11,7 @@ function App() {
         <div >      
           <BrowserRouter >
             <NavBar />
+            <h2 className="text-center text-white">NUESTROS PRODUCTOS</h2>
             <Routes>
               <Route path={"/"} element={<ItemListContainer />} />
               <Route path={"/category/:id"} element={<ItemListContainer />} />
